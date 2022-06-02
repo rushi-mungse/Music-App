@@ -7,6 +7,7 @@
   --pinky: #f3071d;
   --primary-pinky: #e600ff;
   --pure: #ffffff;
+  --gray: #707070;
 }
 
 * {
@@ -22,7 +23,7 @@ body {
 }
 
 .container {
-  max-width: 90%;
+  max-width: 85%;
   margin: 0 auto;
 }
 
