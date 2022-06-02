@@ -1,0 +1,39 @@
+.nav_wrapper {
+  background-color: var(--primary-dark);
+  padding: 30px 0;
+}
+
+.routers {
+  list-style-type: none;
+}
+
+.routers li {
+  margin-left: 30px;
+}
+
+.routers li:frist-child {
+  margin-left: 0;
+}
+
+.routers li a {
+  color: var(--pure);
+  font-size: 18px;
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: 0.5px;
+}
+
+.btn_frist {
+  border: 1px solid var(--primary-blue);
+  color: var(--pure);
+  background-color: transparent;
+  font-size: 18px;
+  font-style: normal;
+}
+.btn_second {
+  background-color: var(--primary-blue);
+  color: var(--pure);
+  font-size: 18px;
+  font-style: normal;
+  margin-left: 30px;
+}
