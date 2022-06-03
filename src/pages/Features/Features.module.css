@@ -1,0 +1,44 @@
+.features_wrapper {
+  height: 100vh;
+  color: var(--pure);
+  background-color: var(--primary-dark);
+}
+
+.bg {
+  height: 90%;
+  background-color: var(--dark);
+  border-radius: 0 0 100px 100px;
+}
+
+.features {
+  flex-direction: column;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 80px;
+}
+
+.heading span {
+  letter-spacing: 1px;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.heading img {
+  margin-bottom: 20px;
+}
+.heading h1 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.features_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 150px;
+  column-gap: 50px;
+}
