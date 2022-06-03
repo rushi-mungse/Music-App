@@ -17,13 +17,21 @@ const Home = () => {
           <div className={styles.apps}>
             <span>Download now on iOS and Android</span>
             <div className={styles.stores}>
-              <img src="/images/google-play.svg" alt="google-play" />
-              <img src="/images/app-store.svg" alt="app-store" />
+              <img
+                src="/images/google-play.svg"
+                alt="google-play"
+                draggable="false"
+              />
+              <img
+                src="/images/app-store.svg"
+                alt="app-store"
+                draggable="false"
+              />
             </div>
           </div>
         </div>
         <div className={styles.creativity}>
-          <img src="/images/phone.svg" alt="phone" />
+          <img src="/images/phone.svg" alt="phone" draggable="false" />
         </div>
       </div>
       <Features />

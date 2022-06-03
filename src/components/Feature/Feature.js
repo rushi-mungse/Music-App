@@ -4,7 +4,7 @@ const Feature = ({ img, heading, para, link }) => {
   return (
     <div className={styles.feature}>
       <div className={styles.img}>
-        <img src={`/images/${img}.svg`} alt="mic" />
+        <img src={`/images/${img}.svg`} alt="mic" draggable="false" />
       </div>
       <h4>{heading}</h4>
       <p>{para}</p>

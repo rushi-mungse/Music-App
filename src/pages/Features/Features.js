@@ -8,7 +8,7 @@ const Features = () => {
           className={`container flex items-center justify-center ${styles.features}`}
         >
           <div className={styles.heading}>
-            <img src="/images/wave.svg" alt="wave" />
+            <img src="/images/wave.svg" alt="wave" draggable="false" />
             <span>An Amazing App Can Change Your Daily Life</span>
             <h1>Music Experience</h1>
           </div>

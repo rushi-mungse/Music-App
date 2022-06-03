@@ -1,0 +1,112 @@
+.palysong {
+  background-color: var(--primary-blue);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.upper_content {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.upper_content .img {
+  height: 40px;
+  width: 40px;
+  border: 3px solid #ffff;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.upper_content .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.upper_content .info {
+  margin-left: 15px;
+}
+.info h5 {
+  color: var(--pure);
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.info span {
+  color: var(--gray);
+}
+
+.lower_content {
+  display: flex;
+  align-items: center;
+}
+.lower_content .music_string {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.lower_content .music_string span:first-child {
+  margin-right: 10px;
+  color: var(--gray);
+}
+
+.lower_content .music_string span:last-child {
+  margin-left: 10px;
+  color: var(--gray);
+}
+
+.play {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.back_button {
+  margin-right: 15px;
+  width: 40px;
+  height: 40px;
+  transition: all 0.3 ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid transparent;
+  border-radius: 50%;
+}
+
+.back_button:hover,
+.forward_button:hover {
+  border: 2px solid var(--gray);
+}
+
+.forward_button {
+  margin-left: 15px;
+  width: 40px;
+  height: 40px;
+  transition: all 0.3 ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid transparent;
+  border-radius: 50%;
+}
+
+.back_button img,
+.forward_button img {
+  height: 50%;
+  width: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.play .play_button {
+  height: 40px;
+  width: 40px;
+  padding: 10px;
+  border: 2px solid var(--primary-pinky);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
