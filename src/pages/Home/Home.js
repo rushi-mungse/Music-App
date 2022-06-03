@@ -1,3 +1,5 @@
+import Features from "../Features/Features";
+import Music from "../Music/Music";
 import styles from "./Home.module.css";
 const Home = () => {
   return (
@@ -24,6 +26,8 @@ const Home = () => {
           <img src="/images/phone.svg" alt="phone" />
         </div>
       </div>
+      <Features />
+      <Music />
     </div>
   );
 };
