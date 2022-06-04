@@ -1,0 +1,50 @@
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content p {
+  color: var(--gray);
+  width: 50%;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.routers {
+  list-style-type: none;
+  margin-top: 50px;
+}
+
+.routers li {
+  margin-left: 40px;
+}
+
+.routers li:frist-child {
+  margin-left: 0;
+}
+
+.routers li a {
+  color: var(--gray);
+  font-size: 16px;
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: 0.5px;
+  transition: all 0.3 ease-in-out;
+}
+
+.routers li a:hover {
+  color: var(--pure);
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.social li {
+  margin: 40px 0 30px 30px;
+}
