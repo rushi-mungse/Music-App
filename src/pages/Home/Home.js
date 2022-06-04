@@ -1,3 +1,6 @@
+import Apps from "../../components/Apps/Apps";
+import Footer from "../../components/Footer/Footer";
+import AppStore from "../AppStore/AppStore";
 import Features from "../Features/Features";
 import Music from "../Music/Music";
 import styles from "./Home.module.css";
@@ -14,21 +17,7 @@ const Home = () => {
             Donec laoreet nec velit vitae aliquam. Ut quis tincidunt purus.
             Suspendisse in leo non risus tincidunt lobortis.
           </p>
-          <div className={styles.apps}>
-            <span>Download now on iOS and Android</span>
-            <div className={styles.stores}>
-              <img
-                src="/images/google-play.svg"
-                alt="google-play"
-                draggable="false"
-              />
-              <img
-                src="/images/app-store.svg"
-                alt="app-store"
-                draggable="false"
-              />
-            </div>
-          </div>
+          <Apps />
         </div>
         <div className={styles.creativity}>
           <img src="/images/phone.svg" alt="phone" draggable="false" />
@@ -36,6 +25,8 @@ const Home = () => {
       </div>
       <Features />
       <Music />
+      <AppStore />
+      <Footer />
     </div>
   );
 };
