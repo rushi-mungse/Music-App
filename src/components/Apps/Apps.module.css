@@ -1,0 +1,15 @@
+.apps {
+  margin-top: 90px;
+}
+.apps span {
+  color: var(--pure);
+}
+.stores {
+  margin-top: 20px;
+}
+
+.stores img {
+  width: 150px;
+  margin-right: 20px;
+  cursor: pointer;
+}
